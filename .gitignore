@@ -1,2 +1,3 @@
 # Ignorar todos los node_modules en cualquier subcarpeta
 **/node_modules
+**/public/libraries
