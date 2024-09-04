@@ -7,7 +7,7 @@ $(document).ready(() => {
 
         // Inicia sesión en Particle
         login: function () {
-            this.particle.login({ username: 'miguelagustin182@gmail.com', password: 'Complex99@' }).then(
+            this.particle.login({ username: 'miguelagustin182@gmail.com', password: 'mypass' }).then(
                 (data) => {
                     this.token = data.body.access_token;
                     this.fetchData(); // Llama a fetchData una vez el login es exitoso
